@@ -10,17 +10,14 @@ import pauseBtn from "../../assets/pause.svg"
 import { slideData } from "../../mock-data"
 
 function Showcase() {
-  const [isAutoPlay, setIsAutoPlay] = useState<boolean>(false)
+  const [isAutoPlay, setIsAutoPlay] = useState<boolean>(true)
   const slider = useRef<Slider | null>(null)
-
 
   useEffect(() => {
     if (isAutoPlay) {
-      console.log("auto mode");
       slider.current?.slickPlay()
     }
     else {
-      console.log("pause mode")
       slider.current?.slickPause()
     }
   }, [isAutoPlay])
@@ -28,11 +25,11 @@ function Showcase() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />
 
