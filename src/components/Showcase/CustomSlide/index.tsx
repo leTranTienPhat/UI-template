@@ -26,8 +26,8 @@ function CustomSlide({ data }: Props) {
           <p className="font-bold text-xl">{company}</p>
         </div>
       </div>
-      <div className="absolute w-full h-full z-10">
-        <img src={image} />
+      <div className="absolute w-full h-full z-10 ">
+        <img src={image} className="" />
       </div>
       <div className="absolute bottom-36 right-16 z-30">
         <Ranking rating={5} />
