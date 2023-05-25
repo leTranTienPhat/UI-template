@@ -7,7 +7,7 @@ function Homepage() {
       <div className="md:col-span-5 col-span-12 h-full">
         <SignIn />
       </div>
-      <div className="hidden md:block col-span-7 h-full bg-blue-200">
+      <div className="hidden md:block col-span-7 h-full">
         <Showcase />
       </div>
     </div>
