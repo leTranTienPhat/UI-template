@@ -1,6 +1,6 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useState, useRef, useEffect, useLayoutEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Slider from "react-slick";
 import CustomSlide from "./CustomSlide";
 import NextArrow from "./CustomArrow/NextArrow";
@@ -14,7 +14,7 @@ function Showcase() {
   const slider = useRef<Slider | null>(null)
 
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (isAutoPlay) {
       console.log("auto mode");
       slider.current?.slickPlay()

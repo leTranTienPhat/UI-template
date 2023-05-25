@@ -9,7 +9,7 @@ function DefaultButton({ type = 'button', color = "primary", onClick, children }
   const btnColor = `btn-${color}`
 
   return (
-    <button type={type} className={`${btnColor} w-full rounded-md p-2 font-bold`}>
+    <button type={type} className={`${btnColor} w-full rounded-md p-2 font-bold`} onClick={onClick}>
       {children}
     </button>
   )
