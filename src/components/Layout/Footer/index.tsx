@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <div className="p-8 w-full">
-      <p className="hyperlink-text">
+      <span className="hyperlink-text">
         English (United Kingdom)
-      </p>
+      </span>
     </div>
   )
 }
