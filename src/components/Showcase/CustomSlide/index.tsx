@@ -30,7 +30,6 @@ function CustomSlide({ data }: Props) {
       </div>
 
       <div className="absolute w-full h-full z-10 bg-cover" style={{ backgroundImage: `url(${image})` }}>
-        {/* <img src={image} alt="model image" className="" /> */}
       </div>
 
       <div className="absolute bottom-36 right-16 z-30">
