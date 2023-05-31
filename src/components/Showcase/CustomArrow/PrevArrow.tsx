@@ -11,7 +11,7 @@ function PrevArrow({ onClick }: Props) {
       style={{ display: "block" }}
       onClick={onClick}
     >
-      <img src={arrow} alt="prev arrow" className="w-6 rotate-180 hover:cursor-pointer" />
+      <img src={arrow} alt="prev arrow" className="w-6 h-6 rotate-180 hover:cursor-pointer" />
     </div>
   )
 }

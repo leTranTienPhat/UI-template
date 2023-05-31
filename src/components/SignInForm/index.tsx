@@ -16,7 +16,7 @@ function SignInForm() {
         <DefaultButton>Sign in</DefaultButton>
         <DefaultButton color="light">
           <div className="flex items-center justify-center gap-4">
-            <img src={googleIcon} alt="google icon" className="w-6" />
+            <img src={googleIcon} alt="google icon" className="w-6 h-6" />
             Sign in with Google
           </div>
         </DefaultButton>

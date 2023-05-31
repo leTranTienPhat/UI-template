@@ -11,7 +11,7 @@ function NextArrow({ onClick }: Props) {
       style={{ display: "block" }}
       onClick={onClick}
     >
-      <img src={arrow} alt="next arrow" className="w-6 hover:cursor-pointer" />
+      <img src={arrow} alt="next arrow" className="w-6 h-6 hover:cursor-pointer" />
     </div>
   )
 }
