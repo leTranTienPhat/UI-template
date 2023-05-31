@@ -1,9 +1,9 @@
 import { IShowcase } from "../model/showcaseModel";
-import person01 from "../assets/person1.png"
+import person01 from "../assets/person1.webp"
 import background01 from "../assets/person1-bg.jpg"
-import person02 from "../assets/person2.png"
+import person02 from "../assets/person2.webp"
 import background02 from "../assets/person2-bg.jpg"
-import person03 from "../assets/person3.png"
+import person03 from "../assets/person3.webp"
 import background03 from "../assets/person3-bg.jpg"
 
 export const slideData: IShowcase[] = [
