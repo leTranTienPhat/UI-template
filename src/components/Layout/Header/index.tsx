@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="flex justify-between w-full p-8 items-center">
       <div className="flex items-center gap-2">
-        <img src={logo} alt="logo" className="w-8" />
+        <img src={logo} alt="logo" className="w-8 h-8" />
         <span className="font-bold text-lg ">Untitled UI</span>
       </div>
       <div>

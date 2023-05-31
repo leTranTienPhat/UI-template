@@ -24,7 +24,7 @@ function CustomSlide({ data }: Props) {
       <div className="absolute bottom-8 left-16 z-20">
         <p className="font-bold text-3xl">{name}</p>
         <div className="flex gap-4 py-4">
-          <img src={logo} alt="logo" className="w-8" />
+          <img src={logo} alt="logo" className="w-8 h-8" />
           <p className="font-bold text-xl">{company}</p>
         </div>
       </div>
